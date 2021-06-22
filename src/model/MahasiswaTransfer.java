@@ -7,13 +7,16 @@ public class MahasiswaTransfer extends Mahasiswa {
     public double ipkSebelumnya;
 
     //kalau yang ini namanya method
-    public void tampilkanHistory(){
+    public boolean tampilkanHistory(){
+        System.out.println("Nama = " + namaMahasiswa);
         System.out.println("Kampus Sebelumnya = " + kampusSebelumnya);
         System.out.println("Nama Sebelumnya = " + prodiSebelumnya);
 
+        return false;
     }
-    public void tampilkanIpkSebelumnya(){
+    public boolean tampilkanIpkSebelumnya(){
         System.out.println("IPK Sebelumnya = " + ipkSebelumnya);
 
+        return false;
     }
 }

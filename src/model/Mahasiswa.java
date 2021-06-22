@@ -13,24 +13,28 @@ public class Mahasiswa {
 
 
     //kalau yang ini namanya method
-    public void tampilkanIdentitas(){
+    public boolean tampilkanIdentitas(){
         System.out.println("Nama = " + namaMahasiswa);
         System.out.println("NPM = " + npm);
         System.out.println("Telepon = " + telepon);
         System.out.println("Alamat = " + alamat);
 
+        return false;
     }
-    public void tampilkanProdi(){
+    public boolean tampilkanProdi(){
         System.out.println("Kelas = " + kelas);
         System.out.println("Prodi = " + prodi);
 
+        return false;
     }
-    public void tampilkanSks(){
+    public boolean tampilkanSks(){
         System.out.println("Jumlah SKS = " + jumlahSks);
 
+        return false;
     }
-    public void tampilkanIpk(){
+    public boolean tampilkanIpk(){
         System.out.println("IPK = " + ipk);
 
+        return false;
     }
 }

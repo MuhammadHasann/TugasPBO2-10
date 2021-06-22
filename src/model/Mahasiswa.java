@@ -1,6 +1,7 @@
 package model;
 
 public class Mahasiswa {
+    //ini atribut atau bisa di bilang field tabel
     public String namaMahasiswa;
     public int npm;
     public String kelas;
@@ -11,7 +12,7 @@ public class Mahasiswa {
     public String alamat;
 
 
-
+    //kalau yang ini namanya method
     public void tampilkanIdentitas(){
         System.out.println("Nama = " + namaMahasiswa);
         System.out.println("NPM = " + npm);

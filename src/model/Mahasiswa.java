@@ -37,4 +37,21 @@ public class Mahasiswa {
 
         return false;
     }
+
+    public Mahasiswa() {
+        System.out.println("ini dari constructor Mahasiswa");
+    }
+
+    public Mahasiswa(String namaMahasiswa) {
+        this.namaMahasiswa = namaMahasiswa;
+    }
+
+    public Mahasiswa(int jumlahSks) {
+        this.jumlahSks = jumlahSks;
+    }
+
+    public Mahasiswa(int telepon, String alamat) {
+        this.telepon = telepon;
+        this.alamat = alamat;
+    }
 }

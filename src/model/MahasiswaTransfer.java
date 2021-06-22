@@ -44,4 +44,15 @@ public class MahasiswaTransfer extends Mahasiswa {
     public void setIpkSebelumnya(double ipkSebelumnya) {
         this.ipkSebelumnya = ipkSebelumnya;
     }
+
+    //override ini artinya menumpuk
+    @Override
+    public String getKelas() {
+        return super.getKelas();
+    }
+
+    @Override
+    public String getProdi() {
+        return super.getProdi();
+    }
 }

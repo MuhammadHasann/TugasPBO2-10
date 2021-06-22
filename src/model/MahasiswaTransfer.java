@@ -20,4 +20,28 @@ public class MahasiswaTransfer extends Mahasiswa {
 
         return false;
     }
+
+    public String getKampusSebelumnya() {
+        return kampusSebelumnya;
+    }
+
+    public void setKampusSebelumnya(String kampusSebelumnya) {
+        this.kampusSebelumnya = kampusSebelumnya;
+    }
+
+    public String getProdiSebelumnya() {
+        return prodiSebelumnya;
+    }
+
+    public void setProdiSebelumnya(String prodiSebelumnya) {
+        this.prodiSebelumnya = prodiSebelumnya;
+    }
+
+    public double getIpkSebelumnya() {
+        return ipkSebelumnya;
+    }
+
+    public void setIpkSebelumnya(double ipkSebelumnya) {
+        this.ipkSebelumnya = ipkSebelumnya;
+    }
 }

@@ -32,5 +32,19 @@ public class Aksi {
         System.out.println(mt.tampilkanIpkSebelumnya());
 
 
+        Mahasiswa mc = new Mahasiswa("Ihda");
+        mc.npm = 13635698;
+        System.out.println("Nama Mahasiswa = " + mc.namaMahasiswa);
+        System.out.println("NPM = " + mc.npm);
+
+        Mahasiswa ms = new Mahasiswa(46);
+        ms.ipk = 4.00;
+        System.out.println("SKS = " + ms.jumlahSks);
+        System.out.println("IPK = " + ms.ipk);
+
+        Mahasiswa mta = new Mahasiswa(8564247 , "Martapura");
+        System.out.println("Telepon = " + mta.telepon);
+        System.out.println("Alamat = " + mta.alamat);
+
     }
 }

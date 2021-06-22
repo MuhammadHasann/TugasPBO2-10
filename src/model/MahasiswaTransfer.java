@@ -6,6 +6,7 @@ public class MahasiswaTransfer extends Mahasiswa {
     public String prodiSebelumnya;
     public double ipkSebelumnya;
 
+
     //kalau yang ini namanya method
     public boolean tampilkanHistory(){
         System.out.println("Nama = " + namaMahasiswa);
